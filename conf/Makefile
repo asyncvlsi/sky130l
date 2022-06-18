@@ -26,7 +26,7 @@ CONFS=actsim.conf \
 	lvp.conf
 
 
-all: $(CONFS)
+install: $(CONFS)
 	if [ ! -d $(ACT_HOME)/conf/sky130l ]; then mkdir $(ACT_HOME)/conf/sky130l; fi
 	cp $(CONFS) $(ACT_HOME)/conf/sky130l
 
