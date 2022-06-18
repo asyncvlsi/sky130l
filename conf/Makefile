@@ -27,7 +27,8 @@ CONFS=actsim.conf \
 
 
 install: $(CONFS)
-	if [ ! -d $(ACT_HOME)/conf/sky130l ]; then mkdir $(ACT_HOME)/conf/sky130l; fi
-	cp $(CONFS) $(ACT_HOME)/conf/sky130l
+	@echo "Installing configuration for sky130l..."
+	@if [ ! -d $(ACT_HOME)/conf/sky130l ]; then mkdir $(ACT_HOME)/conf/sky130l; fi
+	@for i in $(CONFS); do $(ACT_HOME)/scripts/install $$i $(ACT_HOME)/conf/sky130l/$$i; done
 
 -include Makefile.deps
