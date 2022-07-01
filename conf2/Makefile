@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------
 #
-#  Copyright (c) 2021 Rajit Manohar
+#  Copyright (c) 2022 Rajit Manohar
 #
 #  Licensed under the Apache License, Version 2.0 (the "License");
 #  you may not use this file except in compliance with the License.
@@ -15,8 +15,19 @@
 #  limitations under the License.
 #  
 #-------------------------------------------------------------------------
-SUBDIRS=conf conf2
-
 include $(ACT_HOME)/scripts/Makefile.std
+
+CONFS=actsim.conf \
+	layout.conf \
+	prs2net.conf \
+	global.conf \
+	lint.conf \
+	lvp.conf
+
+
+install: $(CONFS)
+	@echo "Installing configuration for sky130..."
+	@if [ ! -d $(ACT_HOME)/conf/sky130 ]; then mkdir $(ACT_HOME)/conf/sky130; fi
+	@for i in $(CONFS); do $(ACT_HOME)/scripts/install $$i $(ACT_HOME)/conf/sky130/$$i; done
 
 -include Makefile.deps
