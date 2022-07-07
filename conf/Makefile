@@ -23,7 +23,8 @@ CONFS=actsim.conf \
 	prs2net.conf \
 	global.conf \
 	lint.conf \
-	lvp.conf
+	lvp.conf \
+	expropt.conf
 
 
 install: $(CONFS)
