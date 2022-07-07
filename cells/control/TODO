@@ -2,6 +2,12 @@ CELL fixes needed:
 
 _0_0syn_0_0var__one__bit_3f_4 : needs to be re-done since the cell has changed.
 
-_0_0cell_0_0 namespace:
+_0_0cell_0_0 namespace: new cells needed
+
  ggc3n12x0 : sizing is changed, which also changes the staticizer
  ggc3n11x0 : new cell needed, similar to ggc3n12x0
+ g0n2na_01a23aox0 
+ ginvx6
+ ginvx7
+ gnand2x0
+ gnor3x0
