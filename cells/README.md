@@ -10,7 +10,8 @@ The cells used to construct bundled-data datapath logic (combinational logic)
 are in the `comb` directory.  The `control` directory contains the remaining
 cells. 
 
-**NOTE** we are still working on these cells and they are not final.
+**NOTE:** we are still working on these cells and they are not yet
+ready to use.
 
 Thanks to the students from Yale's EENG 426 (Silicon Compilation) class
 from Fall 2021 for contributing these cells to the community!
