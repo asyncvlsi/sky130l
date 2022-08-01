@@ -1,0 +1,134 @@
+magic
+tech sky130l
+timestamp 1659169243
+<< ndiffusion >>
+rect 8 23 13 26
+rect 8 20 9 23
+rect 12 20 13 23
+rect 8 17 13 20
+rect 8 14 9 17
+rect 12 14 13 17
+rect 8 11 13 14
+rect 15 23 20 26
+rect 15 20 16 23
+rect 19 20 20 23
+rect 15 17 20 20
+rect 15 14 16 17
+rect 19 14 20 17
+rect 15 11 20 14
+<< ndc >>
+rect 9 20 12 23
+rect 9 14 12 17
+rect 16 20 19 23
+rect 16 14 19 17
+<< ntransistor >>
+rect 13 11 15 26
+<< pdiffusion >>
+rect 8 55 13 56
+rect 8 52 9 55
+rect 12 52 13 55
+rect 8 49 13 52
+rect 8 46 9 49
+rect 12 46 13 49
+rect 8 43 13 46
+rect 8 40 9 43
+rect 12 40 13 43
+rect 8 37 13 40
+rect 8 34 9 37
+rect 12 34 13 37
+rect 8 33 13 34
+rect 15 55 20 56
+rect 15 52 16 55
+rect 19 52 20 55
+rect 15 49 20 52
+rect 15 46 16 49
+rect 19 46 20 49
+rect 15 43 20 46
+rect 15 40 16 43
+rect 19 40 20 43
+rect 15 37 20 40
+rect 15 34 16 37
+rect 19 34 20 37
+rect 15 33 20 34
+<< pdc >>
+rect 9 52 12 55
+rect 9 46 12 49
+rect 9 40 12 43
+rect 9 34 12 37
+rect 16 52 19 55
+rect 16 46 19 49
+rect 16 40 19 43
+rect 16 34 19 37
+<< ptransistor >>
+rect 13 33 15 56
+<< polysilicon >>
+rect 8 63 20 64
+rect 8 60 9 63
+rect 12 60 16 63
+rect 19 60 20 63
+rect 8 59 20 60
+rect 13 56 15 59
+rect 13 26 15 33
+rect 13 9 15 11
+<< pc >>
+rect 9 60 12 63
+rect 16 60 19 63
+<< m1 >>
+rect 8 60 9 63
+rect 12 60 16 63
+rect 19 60 20 63
+rect 9 55 12 56
+rect 9 49 12 52
+rect 9 43 12 46
+rect 9 37 12 40
+rect 9 33 12 34
+rect 16 55 19 56
+rect 16 49 19 52
+rect 16 43 19 46
+rect 16 37 19 40
+rect 9 23 12 24
+rect 9 17 12 20
+rect 9 13 12 14
+rect 16 23 19 34
+rect 16 17 19 20
+rect 16 13 19 14
+<< m2c >>
+rect 9 52 12 55
+rect 9 46 12 49
+rect 9 40 12 43
+rect 9 34 12 37
+rect 9 20 12 23
+rect 9 14 12 17
+<< m2 >>
+rect 8 55 13 56
+rect 8 52 9 55
+rect 12 52 13 55
+rect 8 49 13 52
+rect 8 46 9 49
+rect 12 46 13 49
+rect 8 43 13 46
+rect 8 40 9 43
+rect 12 40 13 43
+rect 8 37 13 40
+rect 8 34 9 37
+rect 12 34 13 37
+rect 8 33 13 34
+rect 8 23 13 24
+rect 8 20 9 23
+rect 12 20 13 23
+rect 8 17 13 20
+rect 8 14 9 17
+rect 12 14 13 17
+rect 8 13 13 14
+<< labels >>
+rlabel ndiffusion 16 12 16 12 3 out
+rlabel polysilicon 14 27 14 27 3 in(0)
+rlabel ndiffusion 9 12 9 12 3 GND
+rlabel pdiffusion 16 34 16 34 3 out
+rlabel polysilicon 14 32 14 32 3 in(0)
+rlabel pdiffusion 9 34 9 34 3 Vdd
+flabel m2 8 33 13 56 0 FreeSans 11 0 0 0 Vdd
+flabel m2 8 13 13 24 0 FreeSans 11 0 0 0 GND
+flabel m1 8 60 20 63 0 FreeSans 11 0 0 0 in(0)
+flabel m1 16 13 19 56 0 FreeSans 11 0 0 0 out
+<< end >>
